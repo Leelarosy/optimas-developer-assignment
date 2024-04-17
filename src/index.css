@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  background-color: #11174A;
+  background-image: url('./images/glaire.png');
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.input-user{
+  background: #ffffff0d url('../public/images/usericon.svg') 10px 6px no-repeat;
+  min-width:290px;
+  height:30px;
+}
+.input-password{
+  background: #ffffff0d url('../public/images/passwordicon.svg') 10px 6px no-repeat;
+  min-width:290px;
+  height:30px;
+}
+.y-button{
+  background-color:  #FFBF47;
+  border:1px solid  #FFBF47;
+  border-radius: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.forgot-cta{
+  font-family: "Roboto Condensed", sans-serif;
+}
+.border-custom{
+  background: url('../public/images/bg-login.png') 100% 100% ;
+}
+ 
+  .error-msg{
+    color: #F10E0E;
+
+  }
+  .err-border{
+    border:1px solid #F10E0E;
+  }
+  .active span{
+    color: #FFBF47;
+  }
+  .dash-bg{
+    background: url('../public/images/dash-g.png') 100% 100% no-repeat;
+    background-size: 100% 100%; 
+  }
+  .dash-bg>div:not(:last-child):after{
+    content: '';
+    position: absolute;
+    height: 63px;
+    right: 0px;
+    background-color: #333;
+    width: 2px;
+    bottom: 1.5rem;
+  }
+  .cta-g button{
+      color: #FFBF07;
+      border-radius: 0;
+      background-color: #ffffff0d;
+      
+      margin-right: 10px;
+      height:40px;
+      width:170px;
+      line-height: 1;
+  }
+  .cta-g button.active, .cta-g button:hover{
+background-color: #FFBF07;
+color: #07063B;
+
+  }
+  .calc-cta>button:first-child{
+    background: url('../public/images/design-cta.png') 100% 100% no-repeat;
+    padding:5px 10px;
+  }
+  table{
+    margin-top:50px;
+  }
+ table .bg-head{
+  background: #0000003e;
+  padding:10px
+   
+ }
+ table .bg-head th{ padding:10px}
+ table tr td{padding:10px}
+ .add-user{
+  background: #ffffff0d;
+  width:200px;
+  height:32px;
+  padding-left:20px;
+  font-size: 16px;
+  line-height: 1;
+  text-align: left;
+ }
+ .top-image{
+  background: url('../public/images/top-right.png') 100% 0 no-repeat;
+   
+ }
